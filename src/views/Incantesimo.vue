@@ -47,7 +47,7 @@
               </div>
               <div v-if="hl == true">
                 <br />
-                <div v-for="partehl in incantesimo.higher_level" :key="partehl">
+                <div v-for="partehl in incantesimo.higher_level" :key="partehl" id="under-sub-descrizione">
                   {{ partehl }}
                 </div>
                 <br />
